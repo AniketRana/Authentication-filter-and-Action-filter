@@ -11,7 +11,9 @@ namespace CustomAuthenticationFiltersInMVC.Controllers
     {
         // GET: Home
         //[AniketAuthentication]
-        [AniketAction]
+        //[AniketAction]
+
+        [AniketException]
         public ActionResult Index()
         {
             return View();
